@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	outheader: none;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	transition: all .3s;
+}
+
+body {
+	font-family: 'Segoe UI';
+	font-weight: 300;
+}
+
+h1 {
+	font-weight: 300;
+}
+
+/****************************
+	HEADER
+****************************/
+
+.header {
+	height: 80px;
+	padding: 0 2%;
+	background-color: #353535;
+}
+
+.header .menu {
+	float: right;
+}
+
+.header .menu a {
+	color: #FFF;
+	font-size: 30px;
+	padding: 25px 20px;
+}
+
+.header .menu a:hover {
+	background: #FFF;
+	color: #353535;
+}
+
+/****************************
+	HERO IMAGE
+****************************/
+
+.hero {
+	background: url(../img/hero-img.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	padding-top: 90px;
+}
+
+.hero h1 {
+	background: #383838;
+	line-height: 140px;
+	font-size: 40px;
+	width: 50%;
+	margin: 0 25%;
+	border-radius: 1px 1px 0 0;
+}
+
+.hero p {
+	background: coral;
+	padding: 10px 0;
+	font-size: 23px;
+	margin-bottom: 20px;
+}
+
+.hero .portfolio-link {
+	margin-top: 40px;
+	background: #383838;
+	color: #FFF;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+
+.hero .portfolio-link:hover {
+	background: coral;
+}
+
+.hero .learn-more {
+	margin-top: 54px;
+	background: #353535;
+	font-size: 50px;
+	line-height: 50px;
+	height: 50px;
+	color: #fff;
+}
+
+.hero .learn-more:hover {
+	color: transparent;
+	background: coral;
+}
+
+.hero .learn-more:hover::before {
+	content: 'Learn More';
+	color: #fff;
+	display: inline-block;
+	font-size: 25px;
+	line-height: 45px;
+	position: absolute;
+	margin-left: -46px;
+	text-transform: uppercase;
+}
